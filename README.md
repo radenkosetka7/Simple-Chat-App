@@ -27,23 +27,34 @@ This is a simple chat platform built using Spring Boot for the backend and Web S
 
 **2.** Clone the repository:
 
+```
 git clone https://github.com/your-username/chat-app-springboot
+```
 
 **3.** Navigate to the project directory:
 
+```
 cd chat-app-springboot
+```
 
 **Start DragonflyDB**
 
 **1.** Use the provided docker-compose.yml file to set up DragonflyDB:
 
+```
 docker-compose up -d
+```
 
 **Start the Spring Boot Application**
 
 **1.** Run the Spring Boot application:
 
+```
 ./mvnw spring-boot:run
+```
+
 **2.** Access the application at
 
+```
 http://localhost:8080.
+```
